@@ -16,14 +16,10 @@
                           (assoc (into [] (nth maze y)) x v)))
 
         find-in-maze (fn [maze v]
-                       (loop [x 0 y 0]
-                         (if (= (get-maze maze x y) v)
-                           {:x x :y y}
-                           (recur
-                             (mod (inc x) width)
-                             (if (< (/ (inc x) width) 1)
-                               y
-                               (inc y))))))
+                       (first (for [x (range width)
+                                    y (range height)
+                                    :when (= (get-maze maze x y) v)]
+                                {:x x :y y})))
 
         get-neighbours (fn [field]
                          (->> [{:y 1} {:y -1} {:x 1} {:x -1}]
