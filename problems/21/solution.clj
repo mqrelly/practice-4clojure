@@ -6,8 +6,7 @@
          i 0]
     (if (= i n)
       e
-      (if (empty? r)
-        nil
+      (if (seq r)
         (recur (first r)
                (rest r)
                (inc i))))))
