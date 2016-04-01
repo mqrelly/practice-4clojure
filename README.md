@@ -14,6 +14,8 @@ one way or another.
 21. [Nth element](http://www.4clojure.com/problem/21)
 26. [Fibonacci Sequence](http://www.4clojure.com/problem/26)
 28. [Flatten a Sequence](http://www.4clojure.com/problem/28)
+31. [Pack a Sequence](http://www.4clojure.com/problem/31)
+38. [Maximum value](http://www.4clojure.com/problem/38)
 117. [For Science!](http://www.4clojure.com/problem/117)
 195. [Parentheses... Again](http://www.4clojure.com/problem/195)
   The website didn't accepted the solution due to timeout.
