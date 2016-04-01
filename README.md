@@ -2,6 +2,10 @@
 
 Learning [Clojure][1] by solving small problems from [4Clojure][2].
 
+I started to record every *Easy* problem here, but soon I skipped the
+trivial ones. Now only those get in here, which caused me trouble
+one way or another.
+
 
 ## Problems
 
