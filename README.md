@@ -11,6 +11,8 @@ Learning [Clojure][1] by solving small problems from [4Clojure][2].
 26. [Fibonacci Sequence](http://www.4clojure.com/problem/26)
 28. [Flatten a Sequence](http://www.4clojure.com/problem/28)
 117. [For Science!](http://www.4clojure.com/problem/117)
+195. [Parentheses... Again](http://www.4clojure.com/problem/195)
+  The website didn't accepted the solution due to timeout.
 
 
 [1]: http://clojure.org/
